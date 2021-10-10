@@ -9,6 +9,7 @@ import Login from './Login';
 import { useEffect } from 'react';
 import { auth } from './firebase';
 import Widgets from './Widgets';
+import Footer from './Footer';
 
 
 
@@ -52,6 +53,8 @@ function App() {
         <Widgets/>
       </div>
       )}
+      
+      <Footer />
 
       
     </div>
